@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>memorija</title>
+    <style>
+        .karta {
+            height: 150px;
+            width: 94px;
+            border: solid black 2px;
+            background-image;
+            margin: 20px;
+            border-radius: 10px;
+
+
+        }
+
+        body {
+            background-color: rgb(48, 97, 8);
+        }
+
+        .row {
+            margin: auto;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <script>
+        
+        function klik() {
+            let slika = document.querySelectorAll("karta");
+
+            if (slika.src.== "back.jpg") {
+                slika.src = "2d.jpg";
+            }
+            else {
+                slika.src = "back.jpg";
+            }
+        };
+        
+    </script>
+
+
+
+    <div class="container " id="pozadina">
+
+        <div class="row">
+
+            <div id="karta1"><img class="karta img-fluid" src="back.jpg" onclick="klik();" alt=""></div>
+            <div id="karta2"><img class="karta img-fluid" src="back.jpg" onclick="klik();" alt=""></div>
+            <div id="karta3"><img class="karta img-fluid" src="back.jpg" onclick="klik()" alt=""></div>
+            <div id="karta4"><img class="karta img-fluid" src="back.jpg" onclick="klik()" alt=""></div>
+            <div id="karta5"><img class="karta img-fluid" src="back.jpg" onclick="klik()" alt=""></div>
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div id="karta6"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta7"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta8"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta9"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta10"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+
+        </div>
+
+
+
+
+        <div class="row">
+
+            <div id="karta11"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta12"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta13"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta14"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta15"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+
+        </div>
+
+
+
+
+        <div class="row">
+
+            <div id="karta16"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta17"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta18"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta19"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+            <div id="karta20"><img class="karta img-fluid" src="back.jpg" alt=""></div>
+
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
