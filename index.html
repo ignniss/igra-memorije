@@ -1,113 +1,86 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script/script.js" type="text/javascript"></script>
     <title>memorija</title>
-    <style>
-        .karta {
-            height: 150px;
-            width: 94px;
-            border: solid black 2px;
-            background-image;
-            margin: 20px;
-            border-radius: 10px;
 
-
-        }
-
-        body {
-            background-color: rgb(48, 97, 8);
-        }
-
-        .row {
-            margin: auto;
-        }
-    </style>
-
-
+  </head>
 
 
 </head>
 
 <body>
-
-    <script>
-        
-        function klik() {
-            let slika = document.querySelectorAll("karta");
-
-            if (slika.src.== "back.jpg") {
-                slika.src = "2d.jpg";
-            }
-            else {
-                slika.src = "back.jpg";
-            }
-        };
-        
-    </script>
+  
+  <div class="container igra">
+      <h1>IGRA MEMORIJE</h1>
+      <br>
+      <p>Igra se završava za <span id="vreme">01:00</span> sekundi!</p>
 
 
-
-    <div class="container " id="pozadina">
-
-        <div class="row">
-
-            <div id="karta1"><img class="karta img-fluid" src="back.jpg" onclick="klik();" alt=""></div>
-            <div id="karta2"><img class="karta img-fluid" src="back.jpg" onclick="klik();" alt=""></div>
-            <div id="karta3"><img class="karta img-fluid" src="back.jpg" onclick="klik()" alt=""></div>
-            <div id="karta4"><img class="karta img-fluid" src="back.jpg" onclick="klik()" alt=""></div>
-            <div id="karta5"><img class="karta img-fluid" src="back.jpg" onclick="klik()" alt=""></div>
-
-        </div>
-
-
-
-        <div class="row">
-
-            <div id="karta6"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta7"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta8"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta9"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta10"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-
-        </div>
-
-
-
-
-        <div class="row">
-
-            <div id="karta11"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta12"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta13"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta14"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta15"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-
-        </div>
-
-
-
-
-        <div class="row">
-
-            <div id="karta16"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta17"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta18"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta19"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-            <div id="karta20"><img class="karta img-fluid" src="back.jpg" alt=""></div>
-
-        </div>
-
-
-
-
+    <div class="karta" data-framework="1">
+      <img class="front" src="img/1d.jpg" alt="1" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+    <div class="karta" data-framework="1">
+      <img class="front" src="img/1d.jpg" alt="1" />
+      <img class="back" src="img/back.jpg" alt="back" />
     </div>
 
+    <div class="karta" data-framework="2">
+      <img class="front" src="img/2d.jpg" alt="2" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+    <div class="karta" data-framework="2">
+      <img class="front" src="img/2d.jpg" alt="2" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+
+    <div class="karta" data-framework="3">
+      <img class="front" src="img/3d.jpg" alt="3" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+    <div class="karta" data-framework="3">
+      <img class="front" src="img/3d.jpg" alt="3" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+
+    <div class="karta" data-framework="4">
+      <img class="front" src="img/4d.jpg" alt="4" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+    <div class="karta" data-framework="4">
+      <img class="front" src="img/4d.jpg" alt="4" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+
+    <div class="karta" data-framework="5">
+      <img class="front" src="img/5d.jpg" alt="5" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+    <div class="karta" data-framework="5">
+      <img class="front" src="img/5d.jpg" alt="5" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+
+    <div class="karta" data-framework="6">
+      <img class="front" src="img/6d.jpg" alt="6" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+    <div class="karta" data-framework="6">
+      <img class="front" src="img/6d.jpg" alt="6" />
+      <img class="back" src="img/back.jpg" alt="back" />
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
 </body>
 
 </html>
